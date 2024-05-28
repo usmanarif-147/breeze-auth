@@ -32,9 +32,9 @@
                                 <div class="profile_info_details">
                                     <a href="#">My Profile </a>
                                     <a href="#">Settings</a>
-                                    <form method="POST" action="{{ route('admin.logout') }}">
+                                    <form method="POST" action="{{ route('logout') }}">
                                         @csrf
-                                        <a href="{{ route('admin.logout') }}"
+                                        <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                         this.closest('form').submit();">
                                             Logout
